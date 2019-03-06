@@ -1,0 +1,22 @@
+{
+  "name": "kint-php/kint-smarty",
+  "description": "Kint plugin for Smarty integration",
+  "require": {
+    "kint-php/kint": "^3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kint\\Parser\\": "src/"
+    },
+    "files": [
+      "src/register_extension.inc.php"
+    ]
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rokas Šleinius",
+      "email": "raveren@gmail.com"
+    }
+  ]
+}
